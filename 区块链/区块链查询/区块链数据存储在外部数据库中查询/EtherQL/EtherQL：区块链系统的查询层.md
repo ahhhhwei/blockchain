@@ -1,6 +1,6 @@
 # EtherQL：区块链系统的查询层
 
-[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A20Query20Layer20for20Blockchain20System.md)
+[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A%20Query%20Layer%20for%20Blockchain%20System.md)
 
 <center>杨力¹，郑凯¹，严颖²，刘琦²，周晓芳³</center><br>
 <center>¹ 中国苏州大学计算机科学与技术学院</center><br>
@@ -123,7 +123,7 @@
 
 ### 7.1 实验设置
 
-**数据集** 我们在本实验中使用的原始区块链数据可以通过以太坊Homestead网络公开获取。数据集包含自2013年以来大约270万个区块、85万个账户和1300万笔交易 [14]。一个账户可以看作是一个 `<address, balance, nonce, code, storage>` 的元组，其中随机数是一个十进制值，表示从该账户发送的交易数量，存储是账户使用和维护账户内部状态的地方。代码存储编译后的智能合约 [25]，这超出了本文的讨论范围。一笔交易可以表示为 `< hash, sender, receiver, value, gas, gas price, data, nonce >`。在以太坊中，Gas作为一种激励机制，用于向交易发送者收取交易包含费用，而Gas价格由交易发送者设置，以表示他们愿意为执行此交易支付最多 $gas\times gas\_price$。数据字段是此交易其他参数的编码值，随机数等于发送者的随机数。区块是信息的集合，为简单起见，可以看作是 `< hash, par ent hash, number, miner, nonce, timestamp, transactions >` 的元组。随机数字段是挖矿过程的结果，表示矿工的工作量。数据集的详细结构可以在[https://github.com/LeonSpark/EtherQL上找到。
+**数据集** 我们在本实验中使用的原始区块链数据可以通过以太坊Homestead网络公开获取。数据集包含自2013年以来大约270万个区块、85万个账户和1300万笔交易 [14]。一个账户可以看作是一个 `<address, balance, nonce, code, storage>` 的元组，其中随机数是一个十进制值，表示从该账户发送的交易数量，存储是账户使用和维护账户内部状态的地方。代码存储编译后的智能合约 [25]，这超出了本文的讨论范围。一笔交易可以表示为 `< hash, sender, receiver, value, gas, gas price, data, nonce >`。在以太坊中，Gas作为一种激励机制，用于向交易发送者收取交易包含费用，而Gas价格由交易发送者设置，以表示他们愿意为执行此交易支付最多 $gas\times gas\_price$。数据字段是此交易其他参数的编码值，随机数等于发送者的随机数。区块是信息的集合，为简单起见，可以看作是 `< hash, par ent hash, number, miner, nonce, timestamp, transactions >` 的元组。随机数字段是挖矿过程的结果，表示矿工的工作量。数据集的详细结构可以在 [https://github.com/LeonSpark/EtherQL] 上找到。
 
 **环境** 所有实验都在一台PC上运行（Intel Core I5 CPU，8核，每核3.2GHz，16GB内存，运行Ubuntu 14.04 LTS）并安装了JDK 1.8。
 

@@ -1,6 +1,6 @@
 # EtherQL: A Query Layer for Blockchain System
 
-[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A20Query20Layer20for20Blockchain20System.md)
+[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A%20Query%20Layer%20for%20Blockchain%20System.md)
 
 <center>Yang Li¹, Kai Zheng¹, Ying Yan², Qi Liu², and Xiaofang Zhou³</center><br>
 <center>¹ School of Computer Science and Technology, Soochow University, China</center><br>
