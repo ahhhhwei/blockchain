@@ -2,10 +2,10 @@
 
 [中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A20Query20Layer20for20Blockchain20System.md)
 
-<center>Yang Li¹, Kai Zheng¹, Ying Yan², Qi Liu², and Xiaofang Zhou³</center>
-<center>¹ School of Computer Science and Technology, Soochow University, China</center>
-<center>² Microsoft Research, Beijing, China</center>
-<center>³ The University of Queensland, Brisbane, Australia</center>
+<center>Yang Li¹, Kai Zheng¹, Ying Yan², Qi Liu², and Xiaofang Zhou³</center><br>
+<center>¹ School of Computer Science and Technology, Soochow University, China</center><br>
+<center>² Microsoft Research, Beijing, China</center><br>
+<center>³ The University of Queensland, Brisbane, Australia</center><br>
 
 **Abstract.** Blockchain - the innovation behind Bitcoin - enables people to exchange digital money with complete trust, and seems to be completely transforming the way we think about trust. While blockchain is designed for secured, immutable funds transfer in trustless and decentralized environment, the underlying storage of blockchain is very simple with only limited supports for data access. Moreover, blockchain data are highly compressed before flushing to hard disk, making it harder to have an insight of these valuable data set. In this work, we develop EtherQL, an efficient query layer for Ethereum – the most representative open-source blockchain system. EtherQL provides highly efficient query primitives for analyzing blockchain data, including range queries and top-k queries, which can be integrated with other applications with much flexibility. Moreover, EtherQL is designed to provide different levels of abstraction, which are suitable for data analysts, researchers and application developers.
 
