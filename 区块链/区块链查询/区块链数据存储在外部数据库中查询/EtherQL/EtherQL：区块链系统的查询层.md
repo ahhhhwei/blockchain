@@ -1,6 +1,6 @@
 # EtherQL：区块链系统的查询层
 
-[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL A Query Layer for Blockchain System.md)
+[中文](EtherQL：区块链系统的查询层.md) | [English](EtherQL%20A20Query20Layer20for20Blockchain20System.md)
 
 <center>杨力¹，郑凯¹，严颖²，刘琦²，周晓芳³</center> 
 <center>¹ 中国苏州大学计算机科学与技术学院</center>
